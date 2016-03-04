@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UpdateSecurity</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <p>The file to be read is represented as a text string hardcoded into the javascript. Each username/password combination is seperated by a ','.
+           An example of what the file looks like can be seen in UserDatabase.txt</p>
+        <p>The username to look for and the password change are hardcoded into the process, as per the directions.</p>
+        <p>In this example user "roomba" has thier password changed from "cleanDahHouse" to cleanDahFloors.</p>
+        
+        <p>Here is the file untouched:</p>
+        <p id="File"></p>
+        
+        <button type="button" onclick = "UpdatePassword()">Click To modify File</button>
+        
+        <p>Here is the modified file: </p>
+        <p id="modifiedFile"></p>
+         <script src="UpdatePassword.js"></script>
+    
+    <div></div>
+    </body>
+</html>
